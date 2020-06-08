@@ -26,6 +26,8 @@ class App extends Component {
     * # Also it helps in Determining When to Re-Render in React.
     */
     handleChange(id) {
+        // Will be slicing and change this to prevent from the bug which does not 
+        // give us to change even after following the video on youtube.
         const toUpdateTodos = this.state.todos.slice()
         const updatedTodos = toUpdateTodos.map(todo => {
             if (todo.id === id) {
