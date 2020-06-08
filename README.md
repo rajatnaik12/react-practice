@@ -4,3 +4,5 @@ at 2:45.
 
 # The App.js and TodoItem have the comments written and some tips.
 # Hope someone will get helped from this.
+#react version: 16.13.1
+#react-dom version: 16.13.1
